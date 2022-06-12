@@ -94,3 +94,46 @@
 {"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
 {"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
 {"level":"error","message":"error creating user with email miketest1@test.com","service":"authCreateUserService","trace":"E11000 duplicate key error collection: olademar-backend.users index: username_1 dup key: { username: \"mikes1\" }"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"level":"error","message":"error getting the users","service":"getAllUsersService","trace":"User Does not exist"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getAllUsersService","trace":"User Does not exist"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getAllUsersService","trace":"User Does not exist"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getAllUsersService","trace":"User Does not exist"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getAllUsersService","trace":"User Does not exist"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getAllUsersService","trace":"User Does not exist"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating user with email leonsaca20@gmail.com","service":"authCreateUserService","trace":"Operation `users.insertOne()` buffering timed out after 10000ms"}
+{"fn":"authCreateUserAccountService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"error creating user with email leonsaca20@gmail.com"}
+{"level":"error","message":"error creating user with email leonsaca20@gmail.com","service":"authCreateUserService","trace":"Operation `users.insertOne()` buffering timed out after 10000ms"}
+{"fn":"authCreateUserAccountService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"error creating user with email leonsaca20@gmail.com"}
+{"fn":"authValidateUserAccount","instance":"services","level":"error","message":"Error validating user email","service":"user-service","trace":"user incorrect"}
+{"fn":"authValidateUserAccount","instance":"services","level":"error","message":"Error validating user email","service":"user-service","trace":"user incorrect"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"level":"error","message":"error creating user with email yco20191@zcrcd.com","service":"authCreateUserService","trace":"E11000 duplicate key error collection: olademar-backend.users index: username_1 dup key: { username: \"mikess\" }"}
+{"fn":"authCreateUserAccountService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"error creating user with email yco20191@zcrcd.com"}
+{"level":"error","message":"error creating user with email lwf84112@xcoxc.com","service":"authCreateUserService","trace":"E11000 duplicate key error collection: olademar-backend.users index: username_1 dup key: { username: \"mikess\" }"}
+{"fn":"authCreateUserAccountService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"error creating user with email lwf84112@xcoxc.com"}
+{"level":"error","message":"error creating user with email vnd40102@zcrcd.com","service":"authCreateUserService","trace":"E11000 duplicate key error collection: olademar-backend.users index: username_1 dup key: { username: \"mike\" }"}
+{"fn":"authCreateUserAccountService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"error creating user with email vnd40102@zcrcd.com"}
+{"fn":"authValidateUserAccount","instance":"services","level":"error","message":"Error validating user email","service":"user-service","trace":"user incorrect"}
+{"level":"error","message":"error getting user with id 62a544f10671e8112147184i","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Paswords must match","service":"user-service","trace":"Paswords must match"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"user does not exist "}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"user is not valid "}

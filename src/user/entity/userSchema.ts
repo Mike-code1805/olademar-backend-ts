@@ -33,5 +33,9 @@ export const userSchemma = new Schema<User>({
     updated_at: { 
         type: Date,
         default: Date.now,
+    },
+    valid: {
+        type: Boolean,
+        default: false,
     }
 });

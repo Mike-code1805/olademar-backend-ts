@@ -18,6 +18,7 @@ export const authLoginService = async (
 ): Promise<TokenResponse> => {
   try {
     const user = await authValidateUserService(userRequest);
+    if(!user.valid) throw new Error('user is not valid '); 
     const tokens = await authCreateTokenService(user.id, user.isAdmin);
     return tokens;
   } catch (error: any) {
