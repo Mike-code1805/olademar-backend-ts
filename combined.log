@@ -137,3 +137,7 @@
 {"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Paswords must match","service":"user-service","trace":"Paswords must match"}
 {"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"user does not exist "}
 {"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"user is not valid "}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}

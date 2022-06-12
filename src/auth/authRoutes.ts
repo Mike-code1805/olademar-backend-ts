@@ -27,7 +27,7 @@ authRouter
 
 authRouter
     .route('/api/auth/validate/:id/:token')
-    .post(userTokenValidationParams, validateUserController);
+    .get(userTokenValidationParams, validateUserController);
 
 authRouter.route('/api/auth/recovery')
     .post(recoveryPasswordController);

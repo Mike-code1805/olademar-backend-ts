@@ -1,0 +1,182 @@
+paths:
+  /api/users:    
+    get:
+      tags:
+        - User
+      summary: Returns a list of users.
+      description: Optional extended description in CommonMark or HTML
+      responses:
+        200:
+          description: A JSON array of user objects
+          content:
+            application/json:
+              schema:
+                type: array
+                $ref: '#/components/schemas/User'
+                    
+        401:
+          description: unauthorized invalid token or not token provided
+        403:
+          description: bad request wrong token provided
+
+  /api/users/find/{id}:
+    get:
+      tags:
+        - User
+      summary: Get a user by ID.
+      description: Get a specific user
+      operationId: getUserById
+      parameters:
+        - name: id
+          in: path
+          description: User ID
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        200:
+          description: A JSON object of one user object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        400: 
+          description: Invalid sintax        
+        401:
+          description: unauthorized invalid token or not token provided
+        403:
+          description: bad request wrong token provided
+
+    delete:
+      tags:
+        - User
+      summary: Delete a user by ID.
+      description: Delete a specific user
+      operationId: deleteUser
+      parameters:
+        - name: id
+          in: path
+          description: User ID
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        200:
+          description: A JSON object of one user object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        400: 
+          description: Invalid sintax        
+        401:
+          description: unauthorized invalid token or not token provided
+        403:
+          description: bad request wrong token provided
+    put:
+      tags:
+        - User
+      summary: Update a user by ID.
+      description: Update a specific user
+      operationId: updateUser
+      parameters:
+        - name: id
+          in: path
+          description: User ID
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        200:
+          description: Return a message and update a JSON object of one user object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Message'
+        400: 
+          description: Invalid sintax        
+        401:
+          description: unauthorized invalid token or not token provided
+        403:
+          description: bad request wrong token provided
+
+  /api/users/stats:
+    get:
+      tags:
+        - User
+      summary: Get stats users.
+      description: Get a stats like moth created and total users at months
+      operationId: getStatsUsers
+      parameters:
+        - name: id
+          in: path
+          description: User ID
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        200:
+          description: A JSON object of one user object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserStats'
+        400: 
+          description: Invalid sintax        
+        401:
+          description: unauthorized invalid token or not token provided
+        403:
+          description: bad request wrong token provided
+
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+          format: string
+        username:
+          type: string
+        email:
+          type: string
+        isAdmin:
+          type: boolean
+        password:
+          type: string
+        created_at:
+          type: string
+        updated_at:
+          type: string
+        __v:
+          type: number
+        valid:
+          type: boolean
+      required:
+        - id
+        - name
+        - email
+
+    UserStats:
+      type: object
+      properties:
+        _id:
+          type: string
+          format: month
+          description: month created
+        total:
+          type: string
+          description: total users created at month   
+
+    Message:
+      type: object
+      properties:
+        message:
+          type: string
+          format: string
+          description: message of updated
+              

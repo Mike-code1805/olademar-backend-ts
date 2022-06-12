@@ -19,11 +19,11 @@ export const authTokenValidationAndIsAdmin = (
     const isValid: any = validateAuthToken(authorization);   
     
     if(!isValid){
-      return next(new ApplicationError(401, 'No token provided'));
+      return next(new ApplicationError(401, 'Token Invalid'));
     }
 
     if (!isValid.isAdmin){
-        return next(new ApplicationError(401, 'Tú no eres admin'));
+        return next(new ApplicationError(401, 'You are not admin'));
     }
     next(); 
 
