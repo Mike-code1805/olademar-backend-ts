@@ -6,10 +6,11 @@ import cartRouter from "./cart/cartRoutes";
 import orderRouter from "./order/orderRoutes";
 import swaggerUI from "swagger-ui-express";
 import { swaggerSpecs } from "./config/swaggerConfig";
-
+import cors from "cors";
 
 const app: Application = express();
 
+app.use(cors())
 app.use(express.json());
 
 app.use(userRouter);

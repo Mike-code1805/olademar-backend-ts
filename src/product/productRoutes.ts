@@ -15,10 +15,10 @@ const productRouter: Router = Router();
 productRouter
     .route('/api/products')
     .post(authTokenValidationAndIsAdmin, createProduct)
-    .get(authTokenValidation, getAllProducts)
+    .get(getAllProducts)
 productRouter
     .route('/api/products/find/:id')
-    .get(authTokenValidation, getProductsById)
+    .get(getProductsById)
     .delete(authTokenValidationAndIsAdmin, deleteProduct)
     .put(authTokenValidationAndIsAdmin, updateProduct)
        
