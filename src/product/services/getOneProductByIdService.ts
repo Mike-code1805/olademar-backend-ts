@@ -1,17 +1,26 @@
-import { logger } from "../../logger/appLoger";
-import { findOneResourceById } from "../../shared/factory/findOneResourceById";
-import { Product } from "../entity/types/Product";
-import { productModel } from "../entity/model/productModel";
+import { Types } from 'mongoose';
+import { logger } from '../../logger/appLoger';
+import { productModel } from '../entity/model/productModel';
+import { GetOneProductByIdServiceProps } from 'product/entity/types/GetOneProductByIdService';
 
-export const getOneProductByIdService = async (id: string ): Promise< Product | null> => {
-    try {
-      const product: Product[] = await findOneResourceById(productModel)(id);
-      return product[0];
-    } catch (error: any) {
-      logger.error(`error getting user with id ${id}`, {
-        service: 'getOneUserByIdService',
-        trace: error.message,
-      });
-      throw new Error(error.message);
-    }
+export const getOneProductByIdService = async (id: string): Promise<GetOneProductByIdServiceProps | null> => {
+  try {
+    const product = await productModel.findById({ _id: typeof id === 'string' ? new Types.ObjectId(id) : id }, '_id image title description dimensions price');
+    if (!product) throw new Error('El producto en cuestión no fue encontrado.');
+
+    return {
+      _id: product.id,
+      image: { data: `data:${product.image.contentType};base64,${Buffer.from(product.image.data).toString('base64')}` },
+      title: product.title,
+      description: product.description,
+      dimensions: product.dimensions,
+      price: product.price,
+    };
+  } catch (error: any) {
+    logger.error(`error getting user with id ${id}`, {
+      service: 'getOneUserByIdService',
+      trace: error.message,
+    });
+    throw new Error(error.message);
+  }
 };

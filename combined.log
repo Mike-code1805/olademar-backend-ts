@@ -185,3 +185,45 @@
 {"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"user is not valid "}
 {"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
 {"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a product","service":"createOneProductService","trace":"E11000 duplicate key error collection: olademar-backend.products index: title_1 dup key: { title: \"string\" }"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a product","service":"createOneProductService","trace":"E11000 duplicate key error collection: olademar-backend.products index: title_1 dup key: { title: \"string\" }"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}

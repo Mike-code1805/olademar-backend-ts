@@ -10,6 +10,6 @@ export const getAllProducts = async (_req: Request, res: Response, next: NextFun
         res.status(200).json(products);
     } catch (error: any) {
         logger.error('error', 'hello', { message: error.message });
-        next(new ApplicationError(400, 'error getting the users'));
+        next(new ApplicationError(400, 'Ocurrió un error al obtener la lista de productos. Por favor intente nuevamente.'));
     }
 };
