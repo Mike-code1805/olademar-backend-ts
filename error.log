@@ -227,3 +227,62 @@
 {"level":"error","message":"error","service":"user-service"}
 {"level":"error","message":"error","service":"user-service"}
 {"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a favorite","service":"createOneFavoriteService","trace":"Favorite validation failed: productId: Cast to ObjectId failed for value \"1234213\" (type string) at path \"productId\" because of \"BSONTypeError\""}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a favorite","service":"createOneFavoriteService","trace":"Favorite validation failed: productId: Cast to ObjectId failed for value \"1234213\" (type string) at path \"productId\" because of \"BSONTypeError\""}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a favorite","service":"createOneFavoriteService","trace":"Favorite validation failed: productId: Cast to ObjectId failed for value \"1234213\" (type string) at path \"productId\" because of \"BSONTypeError\""}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a product","service":"createOneProductService","trace":"E11000 duplicate key error collection: olademar-backend.products index: title_1 dup key: { title: \"Crystal Maiden\" }"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a favorite","service":"createOneFavoriteService","trace":"Ya producto ya está en tu lista."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a favorite","service":"createOneFavoriteService","trace":"El producto ya está en tu lista."}
+{"level":"error","message":"error","service":"user-service"}
+{"fn":"createOneFavoriteController","instance":"services","level":"error","message":"error creating a favorite","service":"user-service","trace":"El producto ya está en tu lista."}
+{"fn":"createOneFavoriteController","instance":"controller","level":"error","message":"Error create one favorite","service":"user-service","trace":"El producto ya está en tu lista."}
+{"level":"error","message":"error getting the users","service":"getAllFavoritesService","trace":"The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object"}
+{"fn":"createOneFavoriteController","instance":"services","level":"error","message":"error creating a favorite","service":"user-service","trace":"E11000 duplicate key error collection: olademar-backend.favorites index: idProduct_1 dup key: { idProduct: null }"}
+{"fn":"createOneFavoriteController","instance":"controller","level":"error","message":"Error create one favorite","service":"user-service","trace":"E11000 duplicate key error collection: olademar-backend.favorites index: idProduct_1 dup key: { idProduct: null }"}
+{"fn":"createOneFavoriteController","instance":"services","level":"error","message":"error creating a favorite","service":"user-service","trace":"E11000 duplicate key error collection: olademar-backend.favorites index: idProduct_1 dup key: { idProduct: null }"}
+{"fn":"createOneFavoriteController","instance":"controller","level":"error","message":"Error create one favorite","service":"user-service","trace":"E11000 duplicate key error collection: olademar-backend.favorites index: idProduct_1 dup key: { idProduct: null }"}

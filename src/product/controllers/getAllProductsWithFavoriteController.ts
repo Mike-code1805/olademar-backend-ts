@@ -1,11 +1,12 @@
 import { NextFunction, Request, Response } from 'express';
-import { getAllProductsService } from '../services/getAllProductsService';
+import { getAllProductsWithFavoriteService } from '../services/getAllProductsWithFavoriteService';
 import { ApplicationError } from '../../customErrors/ApplicationError';
 import { logger } from '../../logger/appLoger';
 
-export const getAllProducts = async (_req: Request, res: Response, next: NextFunction) => {
+export const getAllProductsWithFavoriteController = async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const products = await getAllProductsService();
+    const { userId } = req.params;
+    const products = await getAllProductsWithFavoriteService(userId);
     res.status(200).json(products);
   } catch (error: any) {
     logger.error('error', 'hello', { message: error.message });
