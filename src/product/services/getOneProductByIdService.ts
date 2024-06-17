@@ -5,7 +5,7 @@ import { GetOneProductByIdServiceProps } from 'product/entity/types/GetOneProduc
 
 export const getOneProductByIdService = async (id: string): Promise<GetOneProductByIdServiceProps | null> => {
   try {
-    const product = await productModel.findById({ _id: typeof id === 'string' ? new Types.ObjectId(id) : id }, '_id image title description dimensions price');
+    const product = await productModel.findById({ _id: typeof id === 'string' ? new Types.ObjectId(id) : id }, '_id image title description shortdescription dimensions price ofert');
     if (!product) throw new Error('El producto en cuestión no fue encontrado.');
 
     return {
@@ -13,8 +13,10 @@ export const getOneProductByIdService = async (id: string): Promise<GetOneProduc
       image: { data: `data:${product.image.contentType};base64,${Buffer.from(product.image.data).toString('base64')}` },
       title: product.title,
       description: product.description,
+      shortdescription: product.shortdescription,
       dimensions: product.dimensions,
       price: product.price,
+      ofert: product.ofert,
     };
   } catch (error: any) {
     logger.error(`error getting user with id ${id}`, {

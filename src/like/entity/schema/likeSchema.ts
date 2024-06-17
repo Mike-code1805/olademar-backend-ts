@@ -1,9 +1,9 @@
 import mongoose from 'mongoose';
-import { Favorite } from '../types/Favorite';
+import { Like } from '../types/Like';
 
 const Schema = mongoose.Schema;
 
-export const favoriteSchemma = new Schema<Favorite>({
+export const likeSchemma = new Schema<Like>({
   userId: {
     type: Schema.Types.ObjectId,
     ref: 'User',

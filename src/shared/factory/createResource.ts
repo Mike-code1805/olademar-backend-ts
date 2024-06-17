@@ -6,6 +6,7 @@ import { Product } from '../../product/entity/types/Product';
 import { Cart } from '../../cart/entity/types/Cart';
 import { Order } from '../../order/entity/types/Order';
 import { Favorite } from '../../favorite/entity/types/Favorite';
+import { Like } from '../../like/entity/types/Like';
 
 export const createResource =
   <
@@ -16,10 +17,11 @@ export const createResource =
       | ModelType<Token>
       | ModelType<Product>
       | ModelType<Favorite>
+      | ModelType<Like>
   >(
     Model: K
   ) =>
-  async <T>(resource: T): Promise< User | Token | Product | Cart | Order | Favorite> => {
+  async <T>(resource: T): Promise< User | Token | Product | Cart | Order | Favorite | Like> => {
     try {
         const newResource = new Model(resource);
         return await newResource.save();

@@ -8,9 +8,10 @@ export const createOneFavoriteService = async (favoriteRequest: CreateFavorite):
   try {
     const { userId, productId } = favoriteRequest;
     const existFavorite = await favoriteModel.findOne({ userId, productId });
+    console.log({existFavorite});
     if (existFavorite) {
       try {
-        await favoriteModel.deleteOne({ id: existFavorite.id });
+        await favoriteModel.findByIdAndDelete(existFavorite.id);
         return null;
       } catch (error) {
         throw new Error('Algo sucedió al momento de retirar de la lista de deseos.');

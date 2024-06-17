@@ -1,4 +1,5 @@
 import { logger } from '../../logger/appLoger';
+import { Favorite } from '../entity/types/Favorite';
 import { favoriteModel } from '../entity/model/favoriteModel';
 import { Types } from 'mongoose';
 
@@ -16,22 +17,6 @@ export const getAllFavoritesService = async (userId: string): Promise<any[]> => 
       },
       { $unwind: '$productDetails' },
       {
-        $lookup: {
-          from: 'likes',
-          localField: 'productDetails._id',
-          foreignField: 'productId',
-          as: 'likesDetails',
-        },
-      },
-      {
-        $addFields: {
-          likesCount: { $size: '$likesDetails' },
-          userLiked: {
-            $in: [new Types.ObjectId(userId), '$likesDetails.userId'],
-          },
-        },
-      },
-      {
         $project: {
           _id: 1,
           productId: '$productDetails._id',
@@ -42,8 +27,6 @@ export const getAllFavoritesService = async (userId: string): Promise<any[]> => 
           price: '$productDetails.price',
           ofert: '$productDetails.ofert',
           dimensions: '$productDetails.dimensions',
-          likesCount: 1,
-          userLiked: 1,
         },
       },
     ]);
@@ -51,17 +34,13 @@ export const getAllFavoritesService = async (userId: string): Promise<any[]> => 
     const response = favoritesWithDetails.map((favorite) => ({
       _id: favorite._id.toString(),
       productId: favorite.productId.toString(),
-      image: {
-        data: `data:${favorite.image.contentType};base64,${favorite.image.data.toString('base64')}`,
-      },
+      image: { data: `data:${favorite.image.contentType};base64,${favorite.image.data.toString('base64')}` },
       title: favorite.title,
       description: favorite.description,
       shortdescription: favorite.shortdescription,
       price: favorite.price,
       ofert: favorite.ofert,
       dimensions: favorite.dimensions,
-      likesCount: favorite.likesCount,
-      userLiked: favorite.userLiked,
     }));
 
     return response;

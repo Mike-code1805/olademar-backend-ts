@@ -5,6 +5,7 @@ import productRouter from './product/productRoutes';
 import cartRouter from './cart/cartRoutes';
 import orderRouter from './order/orderRoutes';
 import favoriteRouter from './favorite/favoriteRoutes';
+import likeRouter from './like/likeRoutes';
 import swaggerUI from 'swagger-ui-express';
 import { swaggerSpecs } from './config/swaggerConfig';
 import cors from 'cors';
@@ -20,6 +21,7 @@ app.use(productRouter);
 app.use(cartRouter);
 app.use(orderRouter);
 app.use(favoriteRouter);
+app.use(likeRouter);
 
 app.use('/docs', swaggerUI.serve, swaggerUI.setup(swaggerSpecs));
 
