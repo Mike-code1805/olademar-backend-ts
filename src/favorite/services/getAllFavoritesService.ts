@@ -26,7 +26,7 @@ export const getAllFavoritesService = async (userId: string): Promise<any[]> => 
       {
         $addFields: {
           likesCount: { $size: '$likesDetails' },
-          userLiked: {
+          isLiked: {
             $in: [new Types.ObjectId(userId), '$likesDetails.userId'],
           },
         },
@@ -43,7 +43,7 @@ export const getAllFavoritesService = async (userId: string): Promise<any[]> => 
           ofert: '$productDetails.ofert',
           dimensions: '$productDetails.dimensions',
           likesCount: 1,
-          userLiked: 1,
+          isLiked: 1,
         },
       },
     ]);
@@ -61,7 +61,7 @@ export const getAllFavoritesService = async (userId: string): Promise<any[]> => 
       ofert: favorite.ofert,
       dimensions: favorite.dimensions,
       likesCount: favorite.likesCount,
-      userLiked: favorite.userLiked,
+      isLiked: favorite.isLiked,
     }));
 
     return response;

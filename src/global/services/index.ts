@@ -1,0 +1,1 @@
+export { createOneGlobalService } from './createOneGlobalService';

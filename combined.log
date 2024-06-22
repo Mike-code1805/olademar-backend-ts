@@ -294,3 +294,97 @@
 {"fn":"createOneFavoriteController","instance":"controller","level":"error","message":"Error create one favorite","service":"user-service","trace":"Algo sucedió al momento de retirar de la lista de deseos."}
 {"fn":"createOneFavoriteController","instance":"services","level":"error","message":"error creating a favorite","service":"user-service","trace":"Algo sucedió al momento de retirar de la lista de deseos."}
 {"fn":"createOneFavoriteController","instance":"controller","level":"error","message":"Error create one favorite","service":"user-service","trace":"Algo sucedió al momento de retirar de la lista de deseos."}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"Ya existe un comentario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"createOneCommentController","instance":"services","level":"error","message":"error creating a comment","service":"user-service","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"createOneCommentController","instance":"controller","level":"error","message":"Error create one comment","service":"user-service","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}

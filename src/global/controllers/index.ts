@@ -1,0 +1,1 @@
+export { createOneGlobalController } from "./createOneGlobalController";

@@ -4,7 +4,7 @@ import { ApplicationError } from '../../customErrors/ApplicationError';
 import { logger } from '../../logger/appLoger';
 import { getOneProductByIdService } from '../services/getOneProductByIdService';
 
-export const getProductsById = async (req: Request, res: Response, next: NextFunction) => {
+export const getOneProductByIdController = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const product = await getOneProductByIdService(req.params.id);
     res.status(200).json(product);
