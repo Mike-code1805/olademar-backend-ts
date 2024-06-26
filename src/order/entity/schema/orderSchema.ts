@@ -11,13 +11,26 @@ export const orderSchemma = new Schema<Order>({
       counter: { type: Number, required: true },
     },
   ],
+  userOrderNumber: { type: String, required: true },
+  userInfo: {
+    name: { type: String, required: true },
+    phone: { type: String, required: true },
+  },
   totalAmount: { type: Number, required: true },
   address: {
-    street: { type: String, required: true },
-    city: { type: String, required: true },
-    state: { type: String, required: true },
-    postalCode: { type: String, required: true },
     country: { type: String, required: true },
+    state: { type: String, required: true },
+    province: { type: String, required: true },
+    district: { type: String, required: true },
+    reference: { type: String },
   },
-  status: { type: String, required: true, enum: ['pending', 'shipped', 'delivered', 'cancelled'], default: 'pending' },
+  status: { type: String, required: true, enum: ['Pendiente', 'Confirmado', 'Enviado', 'Recibido'], default: 'Pendiente' },
+  created_at: {
+    type: Date,
+    default: Date.now,
+  },
+  updated_at: {
+    type: Date,
+    default: Date.now,
+  },
 });

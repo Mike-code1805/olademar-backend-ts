@@ -1,18 +1,21 @@
 import { ProductId } from '../../../product/entity/types/Product';
 import { UserIdType } from '../../../user/entity/types/User';
-export interface PostalCode {
-  code: string;
-}
 
-export interface City {
+export interface District {
   name: string;
   postalCodes: string[];
+}
+
+export interface Province {
+  name: string;
+  code: string;
+  districts: District[];
 }
 
 export interface State {
   name: string;
   code: string;
-  cities: City[];
+  provinces: Province[];
 }
 
 export interface Country {
@@ -23,7 +26,7 @@ export interface Country {
 
 export interface Global {
   id: GlobalId;
-  country: Country;
+  countries: Country[];
   created_at: Date;
   updated_at: Date;
 }

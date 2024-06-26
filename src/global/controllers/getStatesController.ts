@@ -2,19 +2,18 @@ import { Types } from 'mongoose';
 import { NextFunction, Request, Response } from 'express';
 import { ApplicationError } from '../../customErrors/ApplicationError';
 import { logger } from '../../logger/appLoger';
-import { createOneGlobalService } from '../services/createOneGlobalService';
+import { getStatesService } from '../services';
 
-export const createOneGlobalController = async (req: Request, res: Response, next: NextFunction) => {
+export const getStatesController = async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { countries } = req.body;
+    const { id: code } = req.params;
+    const states = await getStatesService(code);
 
-    await createOneGlobalService({ countries });
-
-    return res.status(201).json('Created');
+    return res.status(200).json(states);
   } catch (error: any) {
     logger.error('Error create one global', {
       instance: 'controller',
-      fn: 'createOneGlobalController',
+      fn: 'getStatesController',
       trace: error.message,
     });
     next(new ApplicationError(400, error.message));

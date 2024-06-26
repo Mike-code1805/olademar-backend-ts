@@ -6,10 +6,15 @@ import { UserIdType } from '../../../user/entity/types/User';
 export interface Order {
   id: OrderId;
   userId: UserIdType;
+  userOrderNumber: string;
   items: {
     productId: ProductId;
     counter: number;
   }[];
+  userInfo: {
+    name: string;
+    phone: string;
+  };
   totalAmount: number;
   address: {
     street: string;
@@ -18,7 +23,7 @@ export interface Order {
     postalCode: string;
     country: string;
   };
-  status: 'pending' | 'shipped' | 'shipped' | 'delivered' | 'cancelled';
+  status: 'Pendiente' | 'Confirmado' | 'Enviado' | 'Recibido';
   created_at: Date;
   updated_at: Date;
 }
