@@ -1,7 +1,7 @@
 import { authSendRecoverPasswordEmail } from '../services/authSendRecoverPasswordEmail';
 import { ApplicationError } from '../../customErrors/ApplicationError';
 import { NextFunction, Request, Response } from 'express';
-import { getOneUserByEmail } from '../../user/services/getOneUserByEmailService';
+import { getOneUserByEmailService } from '../../user/services';
 
 export const recoveryPasswordController = async (
   req: Request<{}, {}, { email: string }>,
@@ -9,7 +9,7 @@ export const recoveryPasswordController = async (
   next: NextFunction
 ) => {
   try {
-    const user = await getOneUserByEmail(req.body.email);
+    const user = await getOneUserByEmailService(req.body.email);
     if (!user) throw new Error('user does not exist ');
 
     await authSendRecoverPasswordEmail(user.id, user.email, user.password);
