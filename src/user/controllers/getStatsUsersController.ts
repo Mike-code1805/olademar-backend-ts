@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response }  from 'express';
-import { userModel as User } from '../entity/userModel';
+import { userModel as User } from '../entity/model/userModel';
 
 import { ApplicationError } from '../../customErrors/ApplicationError';
 import { logger } from '../../logger/appLoger';

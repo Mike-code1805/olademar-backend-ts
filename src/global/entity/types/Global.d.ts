@@ -1,5 +1,5 @@
 import { ProductId } from '../../../product/entity/types/Product';
-import { UserIdType } from '../../../user/entity/types/User';
+import { UserId } from '../../../user/entity/types/User';
 
 export interface District {
   name: string;

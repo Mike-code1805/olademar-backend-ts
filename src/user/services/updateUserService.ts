@@ -2,7 +2,7 @@
 import { logger } from "../../logger/appLoger";
 import { updateOneResourceById } from "../../shared/factory/updateOneResourceById";
 import { User } from "../entity/types/User";
-import { userModel } from "../entity/userModel";
+import { userModel } from "../entity/model/userModel";
 
 export const updateUserService = async (
   userId: string,

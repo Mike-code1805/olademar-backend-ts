@@ -1,15 +1,15 @@
 // import { sendEmailServiceNodeMailer } from '../../shared/services/sendEmailServiceNodeMailer';
 // import { sendEmailServiceSendGrid } from '../../shared/services/senEmailServiceSendGrid';
-// import { UserIdType } from '../../users/entity/types/User';
+// import { UserId } from '../../users/entity/types/User';
 // import { createAuthToken } from '../utils/tokenManager';
 
 import { createAuthToken } from "../utils/tokenManager";
-import { UserIdType } from "../../user/entity/types/User";
+import { UserId } from "../../user/entity/types/User";
 import { sendEmailServiceNodeMailer } from "../../shared/services/sendEmailNodemailerService";
 import { emailMessage } from "../utils/validateAccountEmailTemplate";
 
 export const authSendRecoverPasswordEmail = async (
-  userId: UserIdType,
+  userId: UserId,
   email: string,
   password: string  
 ): Promise<void> => {

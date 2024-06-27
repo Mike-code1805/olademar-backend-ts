@@ -1,11 +1,11 @@
 import { Types } from 'mongoose';
 import { Product } from 'product/entity/types/Product';
 import { ProductId } from '../../../product/entity/types/Product';
-import { UserIdType } from '../../../user/entity/types/User';
+import { UserId } from '../../../user/entity/types/User';
 
 export interface Order {
   id: OrderId;
-  userId: UserIdType;
+  userId: UserId;
   userOrderNumber: string;
   items: {
     productId: ProductId;
@@ -22,6 +22,7 @@ export interface Order {
     state: string;
     postalCode: string;
     country: string;
+    reference: string,
   };
   status: 'Pendiente' | 'Confirmado' | 'Enviado' | 'Recibido';
   created_at: Date;

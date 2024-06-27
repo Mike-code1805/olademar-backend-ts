@@ -1,9 +1,9 @@
 import { ProductId } from '../../../product/entity/types/Product';
-import { UserIdType } from '../../../user/entity/types/User';
+import { UserId } from '../../../user/entity/types/User';
 
 export interface Comment {
   id: CommentId;
-  userId: UserIdType;
+  userId: UserId;
   productId: ProductId;
   commentText: string;
   rating: number;

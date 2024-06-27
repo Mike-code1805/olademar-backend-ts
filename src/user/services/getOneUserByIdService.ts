@@ -1,5 +1,5 @@
 import { logger } from "../../logger/appLoger";
-import { userModel } from "../entity/userModel";
+import { userModel } from "../entity/model/userModel";
 import { User } from "../entity/types/User";
 import { findOneResourceById } from "../../shared/factory/findOneResourceById";
 

@@ -1,4 +1,4 @@
-import { UserIdType } from '../../user/entity/types/User';
+import { UserId } from '../../user/entity/types/User';
 import { logger } from '../../logger/appLoger';
 import { createAuthToken } from '../utils/tokenManager';
 import { sendEmailServiceSendGrid } from '../../shared/services/sendEmailSendGridService';
@@ -6,7 +6,7 @@ import { emailMessage } from '../utils/validateAccountEmailTemplate';
 import { sendEmailServiceNodeMailer } from '../../shared/services/sendEmailNodemailerService';
 
 export const authSendValidateUserEmail = async (
-  userId: UserIdType,
+  userId: UserId,
   email: string, 
   password: string
 ): Promise<unknown> => {

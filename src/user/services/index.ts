@@ -1,0 +1,1 @@
+export { getOneUserByEmailService } from './getOneUserByEmailService';

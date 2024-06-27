@@ -22,7 +22,7 @@ export const orderSchemma = new Schema<Order>({
     state: { type: String, required: true },
     province: { type: String, required: true },
     district: { type: String, required: true },
-    reference: { type: String },
+    reference: { type: String, default: '' },
   },
   status: { type: String, required: true, enum: ['Pendiente', 'Confirmado', 'Enviado', 'Recibido'], default: 'Pendiente' },
   created_at: {

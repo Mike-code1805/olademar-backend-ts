@@ -1,5 +1,5 @@
 import { Product } from "product/entity/types/Product";
-import { UserIdType } from "user/entity/types/User";
+import { UserId } from "user/entity/types/User";
 
 export interface Cart{
     id: CartId;
@@ -7,7 +7,7 @@ export interface Cart{
     products: Product[];
     created_at: Date; 
     updated_at: Date;
-    owner: UserIdType;
+    owner: UserId;
 }
 
 export type CreateCart = {

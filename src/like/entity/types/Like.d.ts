@@ -1,5 +1,5 @@
 import { LikeId } from '../../../like/entity/types/Like';
-import { UserIdType } from '../../../user/entity/types/User';
+import { UserId } from '../../../user/entity/types/User';
 import { ProductId } from '../../../product/entity/types/Product';
 
 export interface Like {

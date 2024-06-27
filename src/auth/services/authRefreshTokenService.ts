@@ -1,5 +1,5 @@
 
-import { userModel } from "../../user/entity/userModel";
+import { userModel } from "../../user/entity/model/userModel";
 import { findOneResourceByField } from "../../shared/factory/findOneResourceByField";
 import { findOneResourceById } from "../../shared/factory/findOneResourceById";
 import { TokenModel } from "../entity/model/authTokenModel";
