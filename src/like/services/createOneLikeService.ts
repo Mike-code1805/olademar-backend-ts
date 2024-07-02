@@ -7,6 +7,7 @@ import { logger } from '../../logger/appLoger';
 export const createOneLikeService = async (likeRequest: CreateLike): Promise<Like | null> => {
   try {
     const { userId, productId } = likeRequest;
+    console.log({userId, productId});
     const existLike = await likeModel.findOne({ userId, productId });
 
     if (existLike) {

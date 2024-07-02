@@ -4,7 +4,7 @@ import { logger } from '../../logger/appLoger';
 
 export const getAllCommentsByProductService = async (productId: string): Promise<Comment[] | []> => {
   try {
-    const comment = await commentModel.find({ productId, status: 'published' }, '_id userId productId commentText rating userName');
+    const comment = await commentModel.find({ productId, status: 'published' }, '_id userId productId commentText rating username');
     return comment;
   } catch (error: any) {
     logger.error('error getting comments by product', {

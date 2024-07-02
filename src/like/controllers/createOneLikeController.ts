@@ -7,7 +7,7 @@ import { createOneLikeService } from '../services/createOneLikeService';
 export const createOneLikeController = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { userId, id } = req.params;
-
+    console.log(id);
     await createOneLikeService({
       userId: new Types.ObjectId(userId),
       productId: new Types.ObjectId(id),

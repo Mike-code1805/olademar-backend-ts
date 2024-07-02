@@ -12,17 +12,16 @@ export interface Order {
     counter: number;
   }[];
   userInfo: {
-    name: string;
-    phone: string;
+    username: string;
+    phone: { code: string; value: string };
   };
   totalAmount: number;
   address: {
-    street: string;
-    city: string;
-    state: string;
-    postalCode: string;
     country: string;
-    reference: string,
+    state: string;
+    province: string;
+    district: string;
+    reference: string;
   };
   status: 'Pendiente' | 'Confirmado' | 'Enviado' | 'Recibido';
   created_at: Date;

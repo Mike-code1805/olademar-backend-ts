@@ -27,8 +27,8 @@ export const getOneProductByIdWithFavoriteLikeService = async (userId: string, p
       ofert: product.ofert,
       isFavorite: favorite ? true : false,
       isLiked: isLiked ? true : false,
-      likesCount: likesCount,
-      comments: comments,
+      likesCount,
+      comments,
     };
   } catch (error: any) {
     logger.error(`error getting the product with id ${productId} and user id ${userId}`, {

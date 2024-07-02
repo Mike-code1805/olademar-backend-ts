@@ -32,7 +32,7 @@ export const commentSchemma = new Schema<Comment>({
     enum: ['published', 'pending', 'deleted'],
     default: 'pending',
   },
-  userName: {
+  username: {
     type: String,
     required: true,
   },

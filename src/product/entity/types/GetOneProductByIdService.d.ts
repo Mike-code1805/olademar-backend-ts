@@ -1,5 +1,7 @@
+import { Comment } from '../../../comment/entity/types/Comment';
+
 export interface GetOneProductByIdServiceProps {
-  _id: string;
+  id: string;
   image: { data: string };
   title: string;
   description: string;
@@ -7,4 +9,8 @@ export interface GetOneProductByIdServiceProps {
   dimensions: string;
   price: number;
   ofert: number | undefined;
+  isFavorite: boolean;
+  isLiked: boolean;
+  likesCount: number;
+  comments: Comment[];
 }

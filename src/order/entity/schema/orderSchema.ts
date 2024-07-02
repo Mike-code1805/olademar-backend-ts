@@ -13,8 +13,8 @@ export const orderSchemma = new Schema<Order>({
   ],
   userOrderNumber: { type: String, required: true },
   userInfo: {
-    name: { type: String, required: true },
-    phone: { type: String, required: true },
+    username: { type: String, required: true },
+    phone: { code: { type: String, required: true }, value: { type: String, required: true } },
   },
   totalAmount: { type: Number, required: true },
   address: {

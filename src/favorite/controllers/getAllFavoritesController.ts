@@ -6,7 +6,7 @@ export const getAllFavoritesController = async (req: Request, res: Response, nex
   try {
     const { userId } = req.params;
     const favorites = await getAllFavoritesService(userId);
-    return res.status(200).json(favorites);
+    res.status(200).json(favorites);
   } catch (error: any) {
     logger.error('error getting the users', {
       service: 'getAllFavoritesService',

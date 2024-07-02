@@ -1,9 +1,10 @@
 import { logger } from '../../logger/appLoger';
-import { LoginUser } from '../../user/entity/types/User';
+import { LoginUser, UserId } from '../../user/entity/types/User';
 import { authCreateTokenService } from './authCreateTokenService';
 import { authValidateUserService } from './authValidateUserService';
 
 export type TokenResponse = {
+  id: UserId;
   authToken: string;
   username: string;
 };
@@ -17,7 +18,7 @@ export const authLoginUserService = async (userRequest: LoginUser): Promise<Toke
     const tokens = await authCreateTokenService(user.id, user.isAdmin!);
     console.log('tokens');
     console.log(tokens);
-    return { ...tokens, username: user.username };
+    return { ...tokens, id: user.id, username: user.username };
   } catch (error: any) {
     logger.error('Error login user', {
       instance: 'services',

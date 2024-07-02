@@ -1,0 +1,1 @@
+export { getOneUserController } from "./getOneUserController";

@@ -11,13 +11,15 @@ export interface User {
     contentType: String;
   };
   avatarUrl: string;
-  phone: string;
+  phone: {
+    code: string;
+    value: string;
+  };
   address: {
-    street: string;
-    city: string;
-    state: string;
-    postalCode: string;
     country: string;
+    state: string;
+    province: string;
+    district: string;
     reference: string;
   };
   valid: boolean;

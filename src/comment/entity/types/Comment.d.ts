@@ -10,7 +10,7 @@ export interface Comment {
   replies: Types.ObjectId[];
   isFlagged: boolean;
   status: 'published' | 'pending' | 'deleted';
-  userName: string;
+  username: string;
   created_at: Date;
   updated_at: Date;
 }

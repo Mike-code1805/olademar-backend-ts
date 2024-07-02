@@ -20,7 +20,6 @@ export const userSchemma = new Schema<User>({
   },
   password: {
     type: String,
-    required: true,
   },
   avatar: {
     data: {
@@ -44,8 +43,14 @@ export const userSchemma = new Schema<User>({
     reference: { type: String, default: '' },
   },
   phone: {
-    type: String,
-    default: '',
+    code: {
+      type: String,
+      default: '',
+    },
+    value: {
+      type: String,
+      default: '',
+    },
   },
   valid: {
     type: Boolean,

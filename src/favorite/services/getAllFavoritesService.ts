@@ -1,68 +1,38 @@
 import { logger } from '../../logger/appLoger';
 import { favoriteModel } from '../entity/model/favoriteModel';
 import { Types } from 'mongoose';
+import { likeModel } from '../../like/entity/model/likeModel';
+import { getOneProductByIdService } from '../../product/services/getOneProductByIdService';
 
 export const getAllFavoritesService = async (userId: string): Promise<any[]> => {
   try {
-    const favoritesWithDetails = await favoriteModel.aggregate([
-      { $match: { userId: new Types.ObjectId(userId) } },
-      {
-        $lookup: {
-          from: 'products',
-          localField: 'productId',
-          foreignField: '_id',
-          as: 'productDetails',
-        },
-      },
-      { $unwind: '$productDetails' },
-      {
-        $lookup: {
-          from: 'likes',
-          localField: 'productDetails._id',
-          foreignField: 'productId',
-          as: 'likesDetails',
-        },
-      },
-      {
-        $addFields: {
-          likesCount: { $size: '$likesDetails' },
-          isLiked: {
-            $in: [new Types.ObjectId(userId), '$likesDetails.userId'],
-          },
-        },
-      },
-      {
-        $project: {
-          _id: 1,
-          productId: '$productDetails._id',
-          title: '$productDetails.title',
-          image: '$productDetails.image',
-          description: '$productDetails.description',
-          shortdescription: '$productDetails.shortdescription',
-          price: '$productDetails.price',
-          ofert: '$productDetails.ofert',
-          dimensions: '$productDetails.dimensions',
-          likesCount: 1,
-          isLiked: 1,
-        },
-      },
-    ]);
+    const favorites = await favoriteModel.find({ userId: new Types.ObjectId(userId) });
 
-    const response = favoritesWithDetails.map((favorite) => ({
-      _id: favorite._id.toString(),
-      productId: favorite.productId.toString(),
-      image: {
-        data: `data:${favorite.image.contentType};base64,${favorite.image.data.toString('base64')}`,
-      },
-      title: favorite.title,
-      description: favorite.description,
-      shortdescription: favorite.shortdescription,
-      price: favorite.price,
-      ofert: favorite.ofert,
-      dimensions: favorite.dimensions,
-      likesCount: favorite.likesCount,
-      isLiked: favorite.isLiked,
-    }));
+    const favoriteDetails = await Promise.all(
+      favorites.map(async (favorite) => {
+        const product = await getOneProductByIdService(favorite.productId.toString());
+        if (!product) return null;
+        const likesDetails = await likeModel.find({ productId: product.id });
+        const likesCount = likesDetails.length;
+        const isLiked = likesDetails.some((like) => like.userId.toString() === userId);
+
+        return {
+          _id: favorite._id.toString(),
+          productId: product.id.toString(),
+          image: { data: product.image.data },
+          title: product.title,
+          description: product.description,
+          shortdescription: product.shortdescription,
+          price: product.price,
+          ofert: product.ofert,
+          dimensions: product.dimensions,
+          likesCount,
+          isLiked,
+        };
+      })
+    );
+
+    const response = favoriteDetails.filter((favorite) => favorite !== null);
 
     return response;
   } catch (error: any) {

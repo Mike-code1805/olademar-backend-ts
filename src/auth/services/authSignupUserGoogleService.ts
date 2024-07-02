@@ -14,11 +14,11 @@ export const authSignupUserGoogleService = async (userRequest: CreateUser): Prom
     if (!userExist) {
       const user: any = await createResource(userModel)(userRequest);
       const tokens = await authCreateTokenService(user.id, userRequest.isAdmin);
-      return { ...tokens, username: user.username };
+      return { ...tokens, id: user.id, username: user.username };
     } else {
       const user: any = await updateOneResourceById(userModel)(userExist.id, userRequest);
       const tokens = await authCreateTokenService(user.id, userRequest.isAdmin);
-      return { ...tokens, username: user.username };
+      return { ...tokens, id: user.id, username: user.username };
     }
   } catch (error: any) {
     logger.error('Error creating user account', {

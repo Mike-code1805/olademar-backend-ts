@@ -7,7 +7,7 @@ import { createOneCommentService } from '../services';
 export const createOneCommentController = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { userId } = req.params;
-    const { productId, commentText, rating, userName } = req.body;
+    const { productId, commentText, rating, username } = req.body;
 
     await createOneCommentService({
       userId: new Types.ObjectId(userId),
@@ -17,7 +17,7 @@ export const createOneCommentController = async (req: Request, res: Response, ne
       replies: [],
       isFlagged: false,
       status: 'pending',
-      userName,
+      username,
     });
 
     return res.status(201).json('Created');
