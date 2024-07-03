@@ -1,5 +1,6 @@
+
+import { favoriteModel } from '../../favorite/entity/model/favoriteModel';
 import { logger } from '../../logger/appLoger';
-import { favoriteModel } from '../entity/model/favoriteModel';
 
 export const getFavoriteProductsByUserService = async (userId: string): Promise<string[]> => {
   try {
