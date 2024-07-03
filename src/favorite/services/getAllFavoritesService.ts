@@ -19,7 +19,7 @@ export const getAllFavoritesService = async (userId: string): Promise<any[]> => 
         return {
           _id: favorite._id.toString(),
           productId: product.id.toString(),
-          image: { data: product.image.data },
+          image: { data: product.images[0].data },
           title: product.title,
           description: product.description,
           shortdescription: product.shortdescription,

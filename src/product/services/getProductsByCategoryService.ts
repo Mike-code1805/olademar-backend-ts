@@ -2,9 +2,15 @@ import { logger } from '../../logger/appLoger';
 import { Product } from '../entity/types/Product';
 import { productModel } from '../entity/model/productModel';
 
-export const getAllProductsService = async (): Promise<any[]> => {
+export const getProductsByCategoryService = async (category: string): Promise<any[]> => {
   try {
-    const products: Product[] = await productModel.find({}, '_id images title shortdescription price ofert dimensions');
+    const products: Product[] = await productModel.find(
+      {
+        categories: { $in: [category] },
+      },
+      '_id images title shortdescription price ofert dimensions'
+    );
+
     const formattedProducts = products.map((product) => ({
       id: product.id,
       image: { data: `data:${product.images[0].contentType};base64,${Buffer.from(product.images[0].data).toString('base64')}` },
@@ -17,7 +23,7 @@ export const getAllProductsService = async (): Promise<any[]> => {
     return formattedProducts;
   } catch (error: any) {
     logger.error('error getting the users', {
-      service: 'getAllProductsService',
+      service: 'getProductsByCategoryService',
       trace: error.message,
     });
     throw new Error('error getting the users');

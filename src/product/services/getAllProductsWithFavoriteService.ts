@@ -5,12 +5,12 @@ import { getFavoriteProductsByUserService } from '../../favorite/services/getFav
 
 export const getAllProductsWithFavoriteService = async (userId: string): Promise<any[]> => {
   try {
-    const products: Product[] = await productModel.find({}, '_id image title shortdescription price ofert dimensions');
+    const products: Product[] = await productModel.find({}, '_id images title shortdescription price ofert dimensions');
     const favoriteProductIds = await getFavoriteProductsByUserService(userId);
 
     const formattedProducts = products.map((product) => ({
       id: product.id,
-      image: { data: `data:${product.image.contentType};base64,${Buffer.from(product.image.data).toString('base64')}` },
+      image: { data: `data:${product.images[0].contentType};base64,${Buffer.from(product.images[0].data).toString('base64')}` },
       title: product.title,
       shortdescription: product.shortdescription,
       price: product.price,

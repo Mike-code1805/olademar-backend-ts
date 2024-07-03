@@ -8,7 +8,7 @@ import { getAllCommentsByProductService } from '../../comment/services';
 
 export const getOneProductByIdWithFavoriteLikeService = async (userId: string, productId: string): Promise<GetOneProductByIdWithFavoriteLikeServiceProps | null> => {
   try {
-    const product = await productModel.findById({ _id: typeof productId === 'string' ? new Types.ObjectId(productId) : productId }, '_id image title description shortdescription dimensions price ofert');
+    const product = await productModel.findById({ _id: typeof productId === 'string' ? new Types.ObjectId(productId) : productId }, '_id images title description shortdescription dimensions price ofert');
     const favorite = await getOneFavoriteByUserProductService(userId, productId);
     const isLiked = await didUserLikeProductService(userId, productId);
     const likesCount = await getLikesCountByProductService(productId);
@@ -18,7 +18,7 @@ export const getOneProductByIdWithFavoriteLikeService = async (userId: string, p
 
     return {
       _id: product.id,
-      image: { data: `data:${product.image.contentType};base64,${Buffer.from(product.image.data).toString('base64')}` },
+      images: product.images.map((image) => ({ data: `data:${image.contentType};base64,${Buffer.from(image.data).toString('base64')}` })),
       title: product.title,
       description: product.description,
       shortdescription: product.shortdescription,

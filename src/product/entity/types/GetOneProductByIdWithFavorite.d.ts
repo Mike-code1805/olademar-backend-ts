@@ -2,7 +2,7 @@ import { Comment } from '../../../comment/entity/types/Comment';
 
 export interface GetOneProductByIdWithFavoriteLikeServiceProps {
   _id: string;
-  image: { data: string };
+  images: { data: string }[];
   title: string;
   description: string;
   shortdescription: string;

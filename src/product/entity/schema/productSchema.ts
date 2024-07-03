@@ -14,10 +14,10 @@ export const productSchemma = new Schema<Product>({
   shortdescription: {
     type: String,
   },
-  image: {
+  images: [{
     data: Buffer,
     contentType: String,
-  },
+  }],
   categories: [
     {
       type: String,
