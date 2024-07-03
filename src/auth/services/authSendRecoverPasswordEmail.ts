@@ -16,7 +16,7 @@ export const authSendRecoverPasswordEmail = async (
   const validateToken = createAuthToken({ id: userId }, password);
   const link = `${process.env.EMAIL_VALIDATE_URL}/recovery/${userId}/${validateToken}`;
   try {
-    await sendEmailServiceNodeMailer(email, 'recovery password', emailMessage(link));
+    await sendEmailServiceNodeMailer(email, 'recovery password', emailMessage(link, link, {code: link, value: link}));
   } catch (e) {
     console.log(e);
   }
