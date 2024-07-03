@@ -7,8 +7,8 @@ import { emailMessage } from '../../auth/utils/validateAccountEmailTemplate';
 
 export const createOneOrderService = async (orderRequest: CreateOrder): Promise<Order> => {
   try {
-    const order = await createResource(orderModel)(orderRequest);
-    // await sendEmailServiceNodeMailer('maryo200116@gmail.com', 'recovery password', emailMessage('link'));
+    const order: any = await createResource(orderModel)(orderRequest);
+    await sendEmailServiceNodeMailer('maryo200116@gmail.com', 'Confirmar Pedido', emailMessage(order.id, orderRequest.userInfo.username, orderRequest.userInfo.phone));
     return order as Order;
   } catch (error: any) {
     logger.error('error creating a order service', {

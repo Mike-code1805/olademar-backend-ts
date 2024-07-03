@@ -1,5 +1,4 @@
 import { logger } from '../../logger/appLoger';
-import { Product } from '../entity/types/Product';
 import { productModel } from '../entity/model/productModel';
 
 export const getImageByIdService = async (id: string): Promise<any> => {

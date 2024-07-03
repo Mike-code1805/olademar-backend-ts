@@ -20,7 +20,7 @@ export const sendEmailServiceNodeMailer = async (
 ) => {
 
   let msg = {
-    from: `OlaDeMar.Dev <${process.env.SENDER_EMAIL}>`,
+    from: `OlaDeMar.Store <${process.env.SENDER_EMAIL}>`,
     to: `${recipient}`,
     subject: `${subject}`,
     text: 'Hello to myself!',
