@@ -13,7 +13,7 @@ export const authSendValidateUserEmail = async (
   const validateToken = createAuthToken({ id: userId }, password);
   const link = `${process.env.EMAIL_VALIDATE_URL}/validate/${userId}/${validateToken}`;
   try {
-    return await sendEmailServiceNodeMailer(email, 'email validation', emailMessage(link));
+    return await sendEmailServiceNodeMailer(email, 'email validation', emailMessage(link, link, {code: link, value: link}));
   } catch (error: any) {
     logger.error('Error sending user email validation', {
       instance: 'services',
