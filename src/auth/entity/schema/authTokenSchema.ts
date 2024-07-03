@@ -1,11 +1,11 @@
 import { Schema } from 'mongoose';
-import { UserIdType } from '../../../user/entity/types/User';
+import { UserId } from '../../../user/entity/types/User';
 
 export interface Token {
   token: string;
   createdAt: Date;
   expireAt: Date;
-  owner: UserIdType;
+  owner: UserId;
 }
 
 export const AuthTokenSchema = new Schema<Token>({

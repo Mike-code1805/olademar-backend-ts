@@ -1,0 +1,32 @@
+paths:
+  /auth:
+    post:
+      tags:
+        - Auth
+      summary: Creates a user.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+      responses:
+        201:
+          description: new use has been created
+        401:
+          description: unauthorized invalid token or not token provided
+        403:
+          description: bad request wrong email or password
+    get:
+      tags:
+        - Auth
+      summary: Returns a list of users.
+      description: Optional extended description in Markdown.
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK

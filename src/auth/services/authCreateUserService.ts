@@ -2,7 +2,7 @@
 import { logger } from '../../logger/appLoger';
 import { createResource } from '../../shared/factory/createResource';
 import { CreateUser, User } from '../../user/entity/types/User';
-import { userModel } from '../../user/entity/userModel';
+import { userModel } from '../../user/entity/model/userModel';
 import { encryptPassword } from '../utils/passwordManager';
 
 export const authCreateUserService = async (

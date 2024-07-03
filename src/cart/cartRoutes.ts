@@ -5,7 +5,7 @@ import { deleteCart } from "./controllers/deleteCartController";
 import { getCarts } from "./controllers/getAllCartsController";
 import { getCartById } from "./controllers/getCartByIdController";
 import { updateCart } from "./controllers/updateCartController";
-import { authTokenValidation } from "../auth/middlewares/authTokenValidation";
+import { authUserTokenValidation} from "../auth/middlewares/authUserTokenValidation";
 
 const cartRouter: Router = Router();
 
@@ -15,7 +15,7 @@ cartRouter
     .get(authTokenValidationAndIsAdmin, getCarts)
 cartRouter
     .route('/api/carts/find/:id')
-    .put(authTokenValidation, updateCart)
-    .get(authTokenValidation, getCartById)
-    .delete(authTokenValidation, deleteCart)
+    .put(authUserTokenValidation, updateCart)
+    .get(authUserTokenValidation, getCartById)
+    .delete(authUserTokenValidation, deleteCart)
 export default cartRouter;

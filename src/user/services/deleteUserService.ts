@@ -1,6 +1,6 @@
 
 import { deleteOneResourceById } from "../../shared/factory/deleteOneResourceById";
-import { userModel as User} from "../entity/userModel";
+import { userModel as User} from "../entity/model/userModel";
 
 
 export const deleteUserService = async (id: string): Promise<{ deletedCount: number } | null> => {

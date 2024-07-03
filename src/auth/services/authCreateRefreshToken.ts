@@ -1,16 +1,16 @@
 // import { createResource } from '../../shared/factory/createResource';
 // import logger from '../../shared/logger/appLogger';
-// import { UserIdType } from '../../users/entity/types/User';
+// import { UserId } from '../../users/entity/types/User';
 // import { createRefreshToken } from '../utils/tokenManager';
 // import { TokenModel } from '../entity/model/authTokenModel';
 
 import { createRefreshToken } from "../utils/tokenManager";
-import { UserIdType } from "../../user/entity/types/User";
+import { UserId } from "../../user/entity/types/User";
 import { TokenModel } from "../entity/model/authTokenModel";
 import { logger } from "../../logger/appLoger";
 
 export const authCreateRefreshToken = async (
-  userId: string | UserIdType
+  userId: string | UserId
 ): Promise<string> => {
   try {
     const refreshToken = createRefreshToken({ id: userId });
