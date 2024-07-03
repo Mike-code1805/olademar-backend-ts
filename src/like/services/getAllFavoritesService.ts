@@ -1,7 +1,6 @@
 import { logger } from '../../logger/appLoger';
-import { Favorite } from '../entity/types/Favorite';
-import { favoriteModel } from '../entity/model/favoriteModel';
 import { Types } from 'mongoose';
+import { favoriteModel } from '../../favorite/entity/model/favoriteModel';
 
 export const getAllFavoritesService = async (userId: string): Promise<any[]> => {
   try {

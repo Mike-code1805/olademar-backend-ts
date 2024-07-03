@@ -4,11 +4,11 @@ import { bodyRequestValidator } from '../shared/validators/bodyRequestValidators
 import { authSignupUserController, authSignupUserGoogleController, authLoginUserController } from './controllers';
 import { recoveryPasswordController } from './controllers/recoveryPasswordController';
 import { refreshToken } from './controllers/refreshTokenController';
-import { validateUserController } from './controllers/validateUserController';
 import { updatePasswordController } from './controllers/updatePasswordController';
 import { signUpUserSchema, singInUserSchema, signUpUserGoogleSchema } from './middlewares/authRequestValidation';
 import { refreshTokenValidation } from './middlewares/refreshTokenValidation';
 import { userTokenValidationParams } from './middlewares/userTokenValidationParams';
+import { validateUserController } from './controllers/validateUserController';
 
 const authRouter: Router = Router();
 
