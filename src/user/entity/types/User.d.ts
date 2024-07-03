@@ -29,13 +29,21 @@ export interface User {
 }
 
 export type EditUser = {
-  id: string;
   username?: string;
   email?: string;
-  isAdmin?: boolean;
   password?: string;
-  img?: string;
-  updated_at?: Date | null;
+  phone?: {
+    code: string;
+    value: string;
+  };
+  address?: {
+    country: string;
+    state: string;
+    province: string;
+    district: string;
+    reference: string;
+  };
+  type_user?: 'google' | 'facebook' | 'normal';
   valid?: boolean;
 };
 

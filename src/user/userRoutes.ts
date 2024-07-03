@@ -1,11 +1,11 @@
 import { Router } from 'express';
 
 import { authUserTokenValidation } from '../auth/middlewares/authUserTokenValidation';
-import { getOneUserController } from './controllers';
+import { getOneUserController, updateOneUserController } from './controllers';
 
 const userRouter: Router = Router();
 
-userRouter.route('/api/user').get(authUserTokenValidation, getOneUserController);
+userRouter.route('/api/user').get(authUserTokenValidation, getOneUserController).put(authUserTokenValidation, updateOneUserController);
 
 // userRouter.route('/api/users').get(authTokenValidationAndIsAdmin, getUsers);
 

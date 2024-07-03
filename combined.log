@@ -546,3 +546,89 @@
 {"fn":"authSignupUserGoogleService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"MongoServerError: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: olademar-backend.users index: username_1 dup key: { username: \"Miguel Enrique\" }"}
 {"fn":"authSignupUserGoogleService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"User validation failed: password: Path `password` is required."}
 {"fn":"authSignupUserGoogleService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"User validation failed: password: Path `password` is required."}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getAllProductsService","trace":"Cannot read properties of undefined (reading '0')"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getAllProductsService","trace":"Cannot read properties of undefined (reading '0')"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getAllProductsService","trace":"Cannot read properties of undefined (reading '0')"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getAllProductsService","trace":"Cannot read properties of undefined (reading '0')"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getAllProductsService","trace":"Cannot read properties of undefined (reading '0')"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getAllProductsService","trace":"Cannot read properties of undefined (reading '0')"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getAllProductsService","trace":"Cannot read properties of undefined (reading '0')"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getAllProductsService","trace":"Cannot read properties of undefined (reading '0')"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the image of product","service":"getImageByIdService","trace":"No se encontró una imagen."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the image of product","service":"getImageByIdService","trace":"No se encontró una imagen."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the image of product","service":"getImageByIdService","trace":"Cannot populate path `image` because it is not in your schema. Set the `strictPopulate` option to false to override."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the image of product","service":"getImageByIdService","trace":"Cannot populate path `image` because it is not in your schema. Set the `strictPopulate` option to false to override."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the image of product","service":"getImageByIdService","trace":"Cannot populate path `image` because it is not in your schema. Set the `strictPopulate` option to false to override."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the image of product","service":"getImageByIdService","trace":"Cannot populate path `image` because it is not in your schema. Set the `strictPopulate` option to false to override."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the product with id 666c97299dbec1bcc05d1d81 and user id 6684024a2e89c5c7a1936206","service":"getOneProductByIdWithFavoriteLikeService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error getting the product with id 666c97299dbec1bcc05d1d81 and user id 6684024a2e89c5c7a1936206","service":"getOneProductByIdWithFavoriteLikeService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the product with id 666c979b9dbec1bcc05d1d83 and user id 66834b9a89341d809ee08a55","service":"getOneProductByIdWithFavoriteLikeService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error getting the product with id 666c979b9dbec1bcc05d1d83 and user id 66834b9a89341d809ee08a55","service":"getOneProductByIdWithFavoriteLikeService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error getting the product with id 666c979b9dbec1bcc05d1d83 and user id 66834b9a89341d809ee08a55","service":"getOneProductByIdWithFavoriteLikeService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error getting the product with id 666c979b9dbec1bcc05d1d83 and user id 66834b9a89341d809ee08a55","service":"getOneProductByIdWithFavoriteLikeService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting user with id 666c979b9dbec1bcc05d1d83","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error getting user with id 666c979b9dbec1bcc05d1d83","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
