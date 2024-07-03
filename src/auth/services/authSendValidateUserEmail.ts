@@ -1,7 +1,6 @@
 import { UserId } from '../../user/entity/types/User';
 import { logger } from '../../logger/appLoger';
 import { createAuthToken } from '../utils/tokenManager';
-import { sendEmailServiceSendGrid } from '../../shared/services/sendEmailSendGridService';
 import { emailMessage } from '../utils/validateAccountEmailTemplate';
 import { sendEmailServiceNodeMailer } from '../../shared/services/sendEmailNodemailerService';
 
