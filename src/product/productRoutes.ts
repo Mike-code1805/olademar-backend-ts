@@ -8,7 +8,7 @@ import { authUserTokenValidation } from '../auth/middlewares/authUserTokenValida
 import { getImageByIdController } from './controllers/getImageByIdController';
 import multer from 'multer';
 import { getAllProductsWithFavoriteController } from './controllers/getAllProductsWithFavoriteController';
-import { getOneProductByIdController, getOneProductByIdWithFavoriteLikeController, getProductsByCategoryController, getProductsByCategoryWithFavoriteController, getImageByIdToShareController } from './controllers';
+import { getOneProductByIdController, getOneProductByIdWithFavoriteLikeController, getProductsByCategoryController, getProductsByCategoryWithFavoriteController, getImageByIdToShareController, getImageDataByIdController } from './controllers';
 
 const storage = multer.memoryStorage();
 const upload = multer({ storage });
@@ -20,6 +20,7 @@ productRouter.route('/api/productswithfavorite').get(authUserTokenValidation, ge
 productRouter.route('/api/products/:id').get(getOneProductByIdController).delete(authTokenValidationAndIsAdmin, deleteProduct).put(authTokenValidationAndIsAdmin, updateProduct);
 productRouter.route('/api/productswithfavoritelike/:id').get(authUserTokenValidation, getOneProductByIdWithFavoriteLikeController);
 productRouter.route('/api/products/image/:id').get(getImageByIdController);
+productRouter.route('/api/products/imagedata/:id').get(getImageDataByIdController);
 productRouter.route('/api/products/imageshare/:id').get(getImageByIdToShareController);
 productRouter.route('/api/products/category/:id').get(getProductsByCategoryController);
 productRouter.route('/api/productswithfavorite/category/:id').get(authUserTokenValidation, getProductsByCategoryWithFavoriteController);

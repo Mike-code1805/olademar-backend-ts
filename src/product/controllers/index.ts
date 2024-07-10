@@ -3,3 +3,4 @@ export { getOneProductByIdWithFavoriteLikeController } from './getOneProductById
 export { getOneProductByIdController } from './getOneProductByIdController';
 export { getProductsByCategoryController } from './getProductsByCategoryController';
 export { getImageByIdToShareController } from './getImageByIdToShareController';
+export { getImageDataByIdController } from './getImageDataByIdController';
