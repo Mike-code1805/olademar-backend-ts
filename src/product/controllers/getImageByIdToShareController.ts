@@ -6,7 +6,7 @@ import { logger } from '../../logger/appLoger';
 export const getImageByIdToShareController = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const image = await getImageByIdToShareService(req.params.id);
-    res.setHeader('Content-Type', 'text/html'); // Especifica el tipo de contenido como HTML
+    res.setHeader('Content-Type', 'text/html');
     res.send(`<img src="${image}" alt="Product Image" />`);
   } catch (error: any) {
     logger.error('error', 'hello', { message: error.message });

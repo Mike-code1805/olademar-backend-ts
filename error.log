@@ -764,3 +764,4 @@
 {"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
 {"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
 {"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
