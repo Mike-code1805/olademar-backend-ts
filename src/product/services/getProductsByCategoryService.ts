@@ -6,7 +6,7 @@ export const getProductsByCategoryService = async (category: string): Promise<an
   try {
     const products: Product[] = await productModel.find(
       {
-        categories: { $in: [category] },
+        categories: { $regex: new RegExp(category, 'i') },
       },
       '_id images title shortdescription price ofert dimensions'
     );
