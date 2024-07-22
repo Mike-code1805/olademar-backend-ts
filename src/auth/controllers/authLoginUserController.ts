@@ -8,6 +8,6 @@ export const authLoginUserController = async (req: Request<{}, {}, LoginUser>, r
     const response = await authLoginUserService(req.body);
     res.status(200).json(response);
   } catch (error: any) {
-    next(new ApplicationError(401, `${error.message}`));
+    next(new ApplicationError(401, error.message));
   }
 };

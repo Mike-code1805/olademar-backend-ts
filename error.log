@@ -816,3 +816,73 @@
 {"level":"error","message":"error","service":"user-service"}
 {"level":"error","message":"error getting the image of product","service":"getImageByIdService","trace":"Cast to ObjectId failed for value \"{ _id: 'undefined' }\" (type Object) at path \"_id\" for model \"Product\""}
 {"level":"error","message":"error","service":"user-service"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"La cuenta fue registrada mediante Google."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"La cuenta fue registrada mediante Google."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"La cuenta fue registrada mediante Google."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"La cuenta fue registrada mediante Google."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"La cuenta fue registrada mediante Google."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"La cuenta fue registrada mediante Google."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"Debe acceder mediante Google."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Debe acceder mediante Google."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"DEBE ACCEDER MEDIANTE GOOGLE."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"DEBE ACCEDER MEDIANTE GOOGLE."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"DEBE ACCEDER MEDIANTE GOOGLE."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"DEBE ACCEDER MEDIANTE GOOGLE."}
+{"fn":"authSignupUserService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"E11000 duplicate key error collection: olademar-backend.users index: email_1 dup key: { email: \"184654@unsaac.edu.pe\" }"}
+{"fn":"authSignupUserService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"Este correo no puede ser usado."}
+{"fn":"authSignupUserService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"Este correo no puede ser usado."}
+{"fn":"authSignupUserService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"DEBE ACCEDER MEDIANTE GOOGLE."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"DEBE ACCEDER MEDIANTE GOOGLE."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"DEBE ACCEDER MEDIANTE GOOGLE."}

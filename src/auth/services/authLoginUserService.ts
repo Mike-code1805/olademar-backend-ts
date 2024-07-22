@@ -12,12 +12,8 @@ export type TokenResponse = {
 export const authLoginUserService = async (userRequest: LoginUser): Promise<TokenResponse> => {
   try {
     const user = await authValidateUserService(userRequest);
-    if (!user.valid) throw new Error('user is not valid ');
-    console.log('user');
-    console.log(user);
+    if (!user.valid) throw new Error('El usuario no está validado.');
     const tokens = await authCreateTokenService(user.id, user.isAdmin!);
-    console.log('tokens');
-    console.log(tokens);
     return { ...tokens, id: user.id, username: user.username };
   } catch (error: any) {
     logger.error('Error login user', {
@@ -25,6 +21,6 @@ export const authLoginUserService = async (userRequest: LoginUser): Promise<Toke
       fn: 'authLoginUserService',
       trace: error.message,
     });
-    throw new Error(`Error login user: ${error.message}`);
+    throw new Error(error.message);
   }
 };
