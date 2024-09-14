@@ -886,3 +886,180 @@
 {"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
 {"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"DEBE ACCEDER MEDIANTE GOOGLE."}
 {"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"DEBE ACCEDER MEDIANTE GOOGLE."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the image of product","service":"getImageByIdService","trace":"No se encontró una imagen."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the image of product","service":"getImageByIdService","trace":"No se encontró una imagen."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting user with id 6691524e5918e50e10fd05b4","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error getting user with id 668eb6de7115f70955e1d3af","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error getting user with id 668eb6de7115f70955e1d3af","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error getting user with id 668eb6de7115f70955e1d3af","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error getting user with id 668eb6de7115f70955e1d3af","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error getting user with id 668eb6de7115f70955e1d3af","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error getting user with id 668eb6de7115f70955e1d3af","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error getting user with id 668eb6de7115f70955e1d3af","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El usuario no es una administradora."}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El usuario no es una administradora."}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El usuario no es una administradora."}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El usuario no es una administradora."}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El usuario no es una administradora."}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El usuario no es una administradora."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El usuario no es una administradora."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"DEBE ACCEDER MEDIANTE GOOGLE."}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"DEBE ACCEDER MEDIANTE GOOGLE."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El usuario no es una administradora."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a product","service":"createOneProductService","trace":"Product validation failed: ofert: Cast to Number failed for value \"undefined\" (type string) at path \"ofert\""}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a product","service":"createOneProductService","trace":"Product validation failed: ofert: Cast to Number failed for value \"undefined\" (type string) at path \"ofert\""}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a product","service":"createOneProductService","trace":"Product validation failed: ofert: Cast to Number failed for value \"undefined\" (type string) at path \"ofert\""}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a product","service":"createOneProductService","trace":"Product validation failed: ofert: Cast to Number failed for value \"undefined\" (type string) at path \"ofert\""}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a product","service":"createOneProductService","trace":"Product validation failed: ofert: Cast to Number failed for value \"undefined\" (type string) at path \"ofert\""}
+{"level":"error","message":"error","service":"user-service"}
+{"fn":"createOneProductService","instance":"services","level":"error","message":"Error creating product","service":"user-service","trace":"CastError: Cast to Number failed for value \"undefined\" (type string) at path \"ofert\""}
+{"level":"error","message":"Error updating product CastError: Cast to Number failed for value \"undefined\" (type string) at path \"ofert\"","service":"user-service"}
+{"level":"error","message":"error getting user with id 66e1d1055eaf93e0f1a1186f","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id 66e1d1055eaf93e0f1a1186f","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id 66e1d1055eaf93e0f1a1186f","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"Error updating product El producto en cuestión no fue encontrado.","service":"user-service"}
+{"level":"error","message":"error getting user with id 66e1d1055eaf93e0f1a1186f","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"Error updating product El producto en cuestión no fue encontrado.","service":"user-service"}
+{"level":"error","message":"error getting user with id 66e1d1055eaf93e0f1a1186f","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"Error updating product El producto en cuestión no fue encontrado.","service":"user-service"}
+{"level":"error","message":"error getting user with id 66e1d1055eaf93e0f1a1186f","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"Error updating product El producto en cuestión no fue encontrado.","service":"user-service"}
+{"level":"error","message":"error getting user with id 66e1d1055eaf93e0f1a1186f","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"Error updating product El producto en cuestión no fue encontrado.","service":"user-service"}
+{"level":"error","message":"error getting user with id 66e34fe7905a3f212c5cfe71","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id 66e34fe7905a3f212c5cfe71","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id 66e3508d905a3f212c5cfe88","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id 66e3508d905a3f212c5cfe88","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id updateproduct","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"fn":"updateProductService","instance":"services","level":"error","message":"Error updating product","service":"user-service","trace":"CastError: Cast to Number failed for value \"NaN\" (type string) at path \"ofert\""}
+{"level":"error","message":"Error updating product CastError: Cast to Number failed for value \"NaN\" (type string) at path \"ofert\"","service":"user-service"}
+{"level":"error","message":"Error updating product \"undefined\" is not valid JSON","service":"user-service"}
+{"level":"error","message":"Error updating product oldImageUrls.map is not a function","service":"user-service"}
+{"level":"error","message":"Error updating product oldImageUrls.map is not a function","service":"user-service"}
+{"fn":"updateProductService","instance":"services","level":"error","message":"Error updating product","service":"user-service","trace":"CastError: Cast to Number failed for value \"NaN\" (type string) at path \"ofert\""}
+{"level":"error","message":"Error updating product CastError: Cast to Number failed for value \"NaN\" (type string) at path \"ofert\"","service":"user-service"}
+{"fn":"updateProductService","instance":"services","level":"error","message":"Error updating product","service":"user-service","trace":"CastError: Cast to Number failed for value \"NaN\" (type string) at path \"ofert\""}
+{"level":"error","message":"Error updating product CastError: Cast to Number failed for value \"NaN\" (type string) at path \"ofert\"","service":"user-service"}
+{"level":"error","message":"error getting user with id 66e4e16e8a4d92115d4a4a42","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id 66e4e16e8a4d92115d4a4a42","service":"getOneUserByIdService","trace":"El producto en cuestión no fue encontrado."}
+{"level":"error","message":"error","service":"user-service"}
+{"fn":"authAdminLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El usuario no es una administradora."}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}

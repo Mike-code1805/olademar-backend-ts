@@ -5,8 +5,6 @@ import { logger } from '../../logger/appLoger';
 
 export const getImageByIdController = async (req: Request, res: Response, next: NextFunction) => {
   try {
-    console.log('req.params.id');
-    console.log(req.params.id);
     const image = await getImageByIdService(req.params.id);
     res.status(200).json(image);
   } catch (error: any) {

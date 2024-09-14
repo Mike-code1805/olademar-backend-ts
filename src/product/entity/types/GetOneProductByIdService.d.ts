@@ -2,7 +2,7 @@ import { Comment } from '../../../comment/entity/types/Comment';
 
 export interface GetOneProductByIdServiceProps {
   id: string;
-  images: { data: string }[];
+  images: string[];
   title: string;
   description: string;
   shortdescription: string;

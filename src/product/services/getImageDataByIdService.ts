@@ -1,12 +1,12 @@
 import { logger } from '../../logger/appLoger';
 import { productModel } from '../entity/model/productModel';
 
-export const getImageDataByIdService = async (id: string): Promise<any> => {
+export const getImageDataByIdService = async (id: string): Promise<string> => {
   try {
-    const products = await productModel.findById({ _id: id }, 'images').populate('images');
+    const products: any = await productModel.findById({ _id: id }, 'images').populate('images');
     if (!products) throw new Error('No se encontró una imagen.');
 
-    return `data:${products.images[0].contentType};base64,${Buffer.from(products.images[0].data).toString('base64')}`;
+    return products.images[0];
   } catch (error: any) {
     logger.error('error getting the image of product', {
       service: 'getImageDataByIdService',

@@ -5,7 +5,7 @@ import { User } from '../entity/types/User';
 export const getOneUserEncryptedService = async (userId: string): Promise<any | null> => {
   try {
     const user = await userModel.findOne({ _id: userId }, 'username email avatarUrl phone address type_user');
-    console.log(user);
+
     if (!user) throw new Error('user not found');
 
     return {

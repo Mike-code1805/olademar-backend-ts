@@ -1,7 +1,5 @@
-
-import { productModel } from "../entity/model/productModel";
-import { deleteOneResourceById } from "../../shared/factory/deleteOneResourceById";
-
+import { productModel } from '../entity/model/productModel';
+import { deleteOneResourceById } from '../../shared/factory/deleteOneResourceById';
 
 export const deleteOneProductService = async (id: string): Promise<{ deletedCount: number } | null> => {
   try {

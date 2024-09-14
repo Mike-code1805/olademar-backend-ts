@@ -3,10 +3,7 @@ export interface Product {
   title: string;
   description: string;
   shortdescription: string;
-  images: {
-    data: Buffer;
-    contentType: String;
-  }[];
+  images: string[];
   categories: Array<string>;
   dimensions: string;
   price: number;

@@ -19,6 +19,8 @@ export const authUserTokenValidation = async (req: Request, _res: Response, next
     next();
   } catch (error: any) {
     if (error.message === 'jwt expired') return next(new ApplicationError(401, 'Por favor, vuelva a iniciar sesión.'));
-    next(new ApplicationError(401, 'Acceso Denegado.'));
+    if (error.message === 'jwt malformed') return next(new ApplicationError(401, 'Por favor, vuelva a iniciar sesión.'));
+    if (error.message === 'invalid signature') return next(new ApplicationError(401, 'Por favor, vuelva a iniciar sesión.'));
+    next(new ApplicationError(401, error.message));
   }
 };

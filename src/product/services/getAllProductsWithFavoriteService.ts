@@ -10,7 +10,7 @@ export const getAllProductsWithFavoriteService = async (userId: string): Promise
 
     const formattedProducts = products.map((product) => ({
       id: product.id,
-      image: { data: `data:${product.images[0].contentType};base64,${Buffer.from(product.images[0].data).toString('base64')}` },
+      image: product.images[0],
       title: product.title,
       shortdescription: product.shortdescription,
       price: product.price,

@@ -19,7 +19,7 @@ export const getAllFavoritesService = async (userId: string): Promise<any[]> => 
         return {
           _id: favorite._id.toString(),
           productId: product.id.toString(),
-          image: { data: product.images[0].data },
+          image: product.images[0],
           title: product.title,
           description: product.description,
           shortdescription: product.shortdescription,
@@ -40,6 +40,6 @@ export const getAllFavoritesService = async (userId: string): Promise<any[]> => 
       service: 'getAllFavoritesService',
       trace: error.message,
     });
-    throw new Error('error getting the users');
+    throw new Error(error.message);
   }
 };

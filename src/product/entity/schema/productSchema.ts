@@ -14,10 +14,7 @@ export const productSchemma = new Schema<Product>({
   shortdescription: {
     type: String,
   },
-  images: [{
-    data: Buffer,
-    contentType: String,
-  }],
+  images: [String],
   categories: [
     {
       type: String,

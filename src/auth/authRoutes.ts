@@ -1,7 +1,12 @@
 import { Router } from 'express';
 import { bodyRequestValidator } from '../shared/validators/bodyRequestValidators';
 
-import { authSignupUserController, authSignupUserGoogleController, authLoginUserController } from './controllers';
+import {
+  authSignupUserController,
+  authSignupUserGoogleController,
+  authLoginUserController,
+  authAdminLoginUserController,
+} from './controllers';
 import { recoveryPasswordController } from './controllers/recoveryPasswordController';
 import { refreshToken } from './controllers/refreshTokenController';
 import { updatePasswordController } from './controllers/updatePasswordController';
@@ -13,9 +18,12 @@ import { validateUserController } from './controllers/validateUserController';
 const authRouter: Router = Router();
 
 authRouter.route('/api/auth/login').post(bodyRequestValidator(singInUserSchema), authLoginUserController);
+authRouter.route('/api/auth/admin/login').post(bodyRequestValidator(singInUserSchema), authAdminLoginUserController);
 
 authRouter.route('/api/auth/register').post(bodyRequestValidator(signUpUserSchema), authSignupUserController);
-authRouter.route('/api/auth/register/google').post(bodyRequestValidator(signUpUserGoogleSchema), authSignupUserGoogleController);
+authRouter
+  .route('/api/auth/register/google')
+  .post(bodyRequestValidator(signUpUserGoogleSchema), authSignupUserGoogleController);
 
 authRouter.route('/api/auth/refreshtoken').post(refreshTokenValidation, refreshToken);
 
