@@ -16,10 +16,10 @@ export const getAllProductsService = async (): Promise<any[]> => {
     }));
     return formattedProducts;
   } catch (error: any) {
-    logger.error('error getting the users', {
+    logger.error('error getting the products', {
       service: 'getAllProductsService',
       trace: error.message,
     });
-    throw new Error('error getting the users');
+    throw new Error(error.message);
   }
 };
