@@ -8,7 +8,7 @@ export const createOneFavoriteService = async (favoriteRequest: CreateFavorite):
   try {
     const { userId, productId } = favoriteRequest;
     const existFavorite = await favoriteModel.findOne({ userId, productId });
-    console.log({existFavorite});
+
     if (existFavorite) {
       try {
         await favoriteModel.findByIdAndDelete(existFavorite.id);

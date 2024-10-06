@@ -8,6 +8,7 @@ import favoriteRouter from './favorite/favoriteRoutes';
 import likeRouter from './like/likeRoutes';
 import commentRouter from './comment/commentRoutes';
 import globalRouter from './global/globalRoutes';
+import paymentRouter from './payment/paymentRoutes';
 import swaggerUI from 'swagger-ui-express';
 import { swaggerSpecs } from './config/swaggerConfig';
 import cors from 'cors';
@@ -26,6 +27,7 @@ app.use(favoriteRouter);
 app.use(likeRouter);
 app.use(commentRouter);
 app.use(globalRouter);
+app.use(paymentRouter);
 
 app.use('/docs', swaggerUI.serve, swaggerUI.setup(swaggerSpecs));
 

@@ -4,7 +4,6 @@ import { favoriteModel } from '../../favorite/entity/model/favoriteModel';
 
 export const getAllFavoritesService = async (userId: string): Promise<any[]> => {
   try {
-    console.log('IM IN getAllFavoritesService');
     const favoritesWithDetails = await favoriteModel.aggregate([
       { $match: { userId: new Types.ObjectId(userId) } },
       {
@@ -30,8 +29,6 @@ export const getAllFavoritesService = async (userId: string): Promise<any[]> => 
         },
       },
     ]);
-
-    console.log(favoritesWithDetails);
 
     const response = favoritesWithDetails.map((favorite) => ({
       _id: favorite._id.toString(),

@@ -1063,3 +1063,35 @@
 {"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
 {"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
 {"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the image of product","service":"getImageByIdService","trace":"No se encontró una imagen."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the image of product","service":"getImageByIdService","trace":"No se encontró una imagen."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the users","service":"getOneCommentByUserProductController","trace":"No existe un comentario del usuario para este producto"}
+{"level":"error","message":"error getting the image of product","service":"getImageByIdService","trace":"No se encontró una imagen."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the image of product","service":"getImageByIdService","trace":"No se encontró una imagen."}
+{"level":"error","message":"error","service":"user-service"}
+{"instance":"services","level":"error","message":"error creating a order service","service":"createPreferenceService","trace":"Cannot read properties of undefined (reading 'map')"}
+{"instance":"services","level":"error","message":"error creating a order service","service":"createPreferenceService","trace":"Cannot read properties of undefined (reading 'map')"}
+{"instance":"services","level":"error","message":"error creating a order service","service":"createPreferenceService","trace":"invalid_token"}
+{"instance":"services","level":"error","message":"error creating a order service","service":"createPreferenceService","trace":"currency_id invalid"}
+{"instance":"services","level":"error","message":"error creating a order service","service":"createPreferenceService","trace":"currency_id invalid"}
+{"instance":"services","level":"error","message":"error creating a order service","service":"createPreferenceService","trace":"currency_id invalid"}
+{"level":"error","message":"error getting the image of product","service":"getImageByIdService","trace":"No se encontró una imagen."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the image of product","service":"getImageByIdService","trace":"No se encontró una imagen."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the image of product","service":"getImageByIdService","trace":"No se encontró una imagen."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the image of product","service":"getImageByIdService","trace":"No se encontró una imagen."}
+{"level":"error","message":"error","service":"user-service"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"El correo o la contraseña del usuario es incorrecta."}
+{"instance":"services","level":"error","message":"error creating a order service","service":"createPreferenceService","trace":"auto_return invalid. back_url.success must be defined"}
+{"instance":"services","level":"error","message":"error creating a order service","service":"createPreferenceService","trace":"auto_return invalid. back_url.success must be defined"}
+{"instance":"services","level":"error","message":"error creating a order service","service":"createPreferenceService","trace":"Cart validation failed: status: `Pendiente` is not a valid enum value for path `status`."}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"updateCartStatusService","trace":"Cast to ObjectId failed for value \"454\" (type string) at path \"_id\" for model \"Cart\""}

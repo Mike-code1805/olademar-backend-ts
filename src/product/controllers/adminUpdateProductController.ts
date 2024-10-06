@@ -23,8 +23,7 @@ export const adminUpdateProductController = async (req: Request, res: Response, 
     if (!bucketName) throw new Error('AWS_S3_BUCKET_NAME is not defined in environment variables');
 
     let newImageUrls: string[] = [];
-    console.log(req.files);
-    console.log(oldImageUrls);
+
     // Si se proporcionan nuevas imágenes, súbelas a S3
     if (Array.isArray(req.files) && req.files.length > 0) {
       const imageUploadPromises = (req.files as Express.Multer.File[]).map((file) => {
@@ -59,15 +58,12 @@ export const adminUpdateProductController = async (req: Request, res: Response, 
       });
       updatedImageUrls = product.images.filter((url: string) => !olImageUrlsJson.includes(url));
 
-      console.log('updatedImageUrls');
-      console.log(updatedImageUrls);
       await Promise.all(imageDeletePromises);
     }
 
     // Combina las nuevas imágenes con las que no fueron eliminadas
     updatedImageUrls = [...updatedImageUrls, ...newImageUrls];
-    console.log('updatedImageUrls');
-    console.log(updatedImageUrls);
+
     const updatedProduct: any = {
       title,
       description,

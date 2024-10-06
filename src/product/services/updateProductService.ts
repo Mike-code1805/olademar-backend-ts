@@ -5,7 +5,6 @@ import { logger } from '../../logger/appLoger';
 
 export const updateProductService = async (productId: string, product: Object): Promise<Product | null | undefined> => {
   try {
-    console.log(product);
     const editedProduct = await updateOneResourceById(productModel)(productId, product);
     return editedProduct;
   } catch (error: any) {
